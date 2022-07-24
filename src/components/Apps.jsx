@@ -82,7 +82,7 @@ const Apps = ({getUser,users,first, tasks, setTasks,FILTERS,filter}) => {
                 addTask ={addTasks} 
                 tasks={tasks}
                 onAdd={() => setBtn(!btn)}/> }
-                </>:
+                </>
                 
         </div>
     )

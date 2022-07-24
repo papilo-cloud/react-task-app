@@ -26,10 +26,10 @@ const Task = ({id, name,handleEdit,onDelete,toggleComplete,completed, taskType, 
             <button className="calcel-btn" 
                 type='button'
                 onClick={()=> setEditing(false) }>
-                <BiUndo className='editbtn' />
+                <BiUndo className='editbtn edt1' />
             </button> 
             <button className="save" type="submit">
-                <BsSave className='editbtn' />
+                <BsSave className='editbtn edt2' />
             </button> 
         </div>
         
