@@ -5,7 +5,7 @@ import img from './images/papilo.jpg'
 
 const User = ({lName,fName,first,getUser,FILTERSITEM, setFilter}) => {
   
-  
+   
 
   return (
     <div className={first ? 'users open':'users'}>
