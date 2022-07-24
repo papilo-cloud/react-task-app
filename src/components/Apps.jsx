@@ -42,21 +42,19 @@ const Apps = ({getUser,users,first, tasks, setTasks,FILTERS,filter}) => {
         setTasks(newTask)
     }
     
-    // useEffect(() => {
+    useEffect(() => {
 
-    //     const todo = JSON.parse(localStorage.getItem('task'))
-    //     if (todo) {
-    //         setTasks(todo)
-    //     }
-    // }, [])
+        const todo = JSON.parse(localStorage.getItem('task'))
+        if (todo) {
+            setTasks(todo)
+        }
+    }, [])
     
-    // useEffect(() => {
-    //     localStorage.setItem('task', JSON.stringify(tasks))
-    // }, [tasks])
+    useEffect(() => {
+        localStorage.setItem('task', JSON.stringify(tasks))
+    }, [tasks])
 
-    // const getUser = () =>{
-    //     console.log('Helo world')
-    // }
+    
 
     
     const p = '+' 
@@ -64,7 +62,6 @@ const Apps = ({getUser,users,first, tasks, setTasks,FILTERS,filter}) => {
     const onAdds = ()=>{
         setBtn(!btn)
     }
-    // const length = tasks.filter(task => !task.taskType)
 
     return (
         <div className='app-container'>
