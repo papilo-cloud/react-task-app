@@ -2,6 +2,8 @@ body, *{
   background-color: hsl(200, 9%, 94%);
   box-sizing: border-box;
   font-family: 'Alegreya Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .colors{
   color:hsl(206, 6%, 79%);
@@ -137,16 +139,18 @@ body, *{
 
 .login-form button{
   outline: none;
-  border: 1px solid #2196f3;
+  border: 1.3px solid rgb(26, 105, 26);
   padding: 6px 12px;
   border-radius: 8px;
   cursor: pointer;
   align-self: center;
-  color: #0066ff;
+  background-color: #2196f3;
+  letter-spacing: 1.3px;
+  color: #fff;
 }
 .tasks{
   position: relative;
-  padding: 30px;
+  padding: 20px;
 }
 .tasks-name {
   position: relative;
@@ -288,7 +292,7 @@ body, *{
 .header{
   position: relative;
   font-size: 16px;
-  padding: 30px;
+  padding: 20px;
   text-align: left;
   margin: 0;
 }
