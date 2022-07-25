@@ -12,10 +12,12 @@ const Login = ({handleLogin}) => {
         <form onSubmit={handleSubmit }>
             <label>
             <input type="text" 
+                placeholder='First name'
                 value={fName}
                 onChange={e => setFName(e.target.value)}/>
             <br />
             <input type="text" 
+                placeholder='Last name'
                 value={lName}
                 onChange={e => setLName(e.target.value)}/>
             </label>
