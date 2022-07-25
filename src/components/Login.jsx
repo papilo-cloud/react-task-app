@@ -20,7 +20,7 @@ const Login = ({handleLogin}) => {
                 onChange={e => setLName(e.target.value)}/>
             </label>
             <button type='submit' 
-            style={{borderColor: fName && lName? '':'red' }}
+            style={{backgroundColor: fName && lName? '':'#999' }}
             disabled={fName.length == 0 || lName.length == 0 } >
                 login
             </button>
