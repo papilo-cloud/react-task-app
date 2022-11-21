@@ -9,8 +9,7 @@ import Information from './Information'
 const Apps = ({getUser,users,first, tasks, setTasks,FILTERS,filter}) => {
 
     const [btn, setBtn] = useState(true)
-    
-    
+     
 
     const addTasks = (txt,type) =>{
         const rand = Math.random() * 100000

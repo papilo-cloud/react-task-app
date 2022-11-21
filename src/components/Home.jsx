@@ -24,7 +24,7 @@ const Home = () => {
     const handleLogin = (fName, lName) =>{
       setUsers(fName)
       setUsers2(lName)
-  }
+  } 
   return (
     <div className='home'>
         {users ?<Apps FILTERS={FILTERS} filter={filter} tasks={tasks}  setTasks={setTasks} getUser={setfirst} first={first} users={users}/>:
