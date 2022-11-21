@@ -10,10 +10,11 @@ const Information = () => {
             <li>Click on the personal button to toggle between personal and business tasks, the default task is personal</li>
             <li>Click the the round button or hit enter to submit your task</li>
             <li>Click the new task button below to take you to your list of tasks</li>
+            <li>Click a particular task to mark as completed</li>
             <li>DoubleClick a particular task to edit the task for changes</li>
             <li>Click on the back arrow button to cancel edditing</li>
             <li>Click the save button or press enter to save the changes</li>
-            <li>Click the harmburger button to take you to menu pages where you can filter your tasks</li>
+            <li>Click the harmburger/menu button to take you to menu page where you can filter your tasks</li>
 
         </ul>
     </div>
